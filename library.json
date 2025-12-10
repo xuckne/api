@@ -1,0 +1,126 @@
+{
+  "books": [
+    {
+      "title": "ЛюбовьНенависть",
+      "author": "Анна Джейн",
+      "genre": "Роман",
+      "year": 2019,
+      "read": false,
+      "quotes": []
+    },
+    {
+      "title": "Чего хотят",
+      "author": "Диана Куро",
+      "genre": "Роман",
+      "year": 2024,
+      "read": true,
+      "quotes": []
+    },
+    {
+      "title": "Медвежий угол",
+      "author": "Фредерик Бакман",
+      "genre": "Роман",
+      "year": 2010,
+      "read": true,
+      "quotes": [],
+      "series": "Бьорнстад",
+      "series_order": 1
+    },
+    {
+      "title": "Мы против вас",
+      "author": "Фредерик Бакман",
+      "genre": "Роман",
+      "year": 2011,
+      "read": true,
+      "quotes": [],
+      "series": "Бьорнстад",
+      "series_order": 2
+    },
+    {
+      "title": "После бури",
+      "author": "Фредерик Бакман",
+      "genre": "Роман",
+      "year": 2012,
+      "read": false,
+      "quotes": [],
+      "series": "Бьорнстад",
+      "series_order": 3
+    },
+    {
+      "title": "Убить волка 1",
+      "author": "Прист",
+      "genre": "Сянься",
+      "year": 2020,
+      "read": false,
+      "quotes": [],
+      "series": "Волк",
+      "series_order": 1
+    },
+    {
+      "title": "Бойцовский клуб",
+      "author": "Чак Паланик",
+      "genre": "Триллер",
+      "year": 2010,
+      "read": true,
+      "quotes": [
+        "Всё, чем ты гордишься, рано или поздно будет выброшено на помойку"
+      ]
+    }
+  ],
+  "series": [
+    {
+      "name": "Бьорнстад",
+      "books": [
+        {
+          "title": "Медвежий угол",
+          "author": "Фредерик Бакман",
+          "genre": "Роман",
+          "year": 2010,
+          "read": true,
+          "quotes": [],
+          "series": "Бьорнстад",
+          "series_order": 1
+        },
+        {
+          "title": "Мы против вас",
+          "author": "Фредерик Бакман",
+          "genre": "Роман",
+          "year": 2011,
+          "read": true,
+          "quotes": [],
+          "series": "Бьорнстад",
+          "series_order": 2
+        },
+        {
+          "title": "После бури",
+          "author": "Фредерик Бакман",
+          "genre": "роман",
+          "year": 2012,
+          "read": false,
+          "quotes": [],
+          "series": "Бьорнстад",
+          "series_order": 3
+        }
+      ],
+      "total": 3,
+      "read": 2
+    },
+    {
+      "name": "Волк",
+      "books": [
+        {
+          "title": "Убить волка 1",
+          "author": "Прист",
+          "genre": "Сянься",
+          "year": 2020,
+          "read": false,
+          "quotes": [],
+          "series": "Волк",
+          "series_order": 1
+        }
+      ],
+      "total": 1,
+      "read": 0
+    }
+  ]
+}
